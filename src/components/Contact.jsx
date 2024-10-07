@@ -41,7 +41,7 @@ const Contact = () => {
                     <ul>
                         <li className="flex items-center mb-4 text-lg">
                             <FaEnvelope className="w-5 mr-3" />
-                            Contact@VrittiAcademy.in
+                            vrittiacademy.io@gmail.com
                         </li>
                         <li className="flex items-center mb-4 text-lg">
                             <FaPhone className="w-5 mr-3" />
@@ -49,7 +49,7 @@ const Contact = () => {
                         </li>
                         <li className="flex items-center mb-4 text-lg">
                             <FaMapMarkerAlt className="w-5 mr-3" />
-                            Tripura, Agartala, Pin:-799003
+                            Near Kali Bari, Bel Tali , A.D Nagar ,Agartala
                         </li>
                     </ul>
                 </div>
