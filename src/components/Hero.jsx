@@ -53,7 +53,7 @@ const Hero = () => {
       <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-12 z-10" id='hero'>
         <a
           href="https://example.com/new-feature"
-          className="flex flex-row items-center justify-center gap-x-2 rounded-lg text-white px-8 py-3 bg-blue-500 hover:bg-blue-600 transition-colors duration-200"
+          className="flex flex-row items-center justify-center gap-x-2 rounded-lg text-white px-8 py-3 bg-blue-500 hover:bg-blue-600 transition-colors duration-200 font-medium"
         >
           <svg
             className="h-[30px] text-white"
@@ -75,7 +75,7 @@ const Hero = () => {
 
         <a
           href="#demo"
-          className="flex flex-row items-center justify-center gap-x-2 rounded-lg border border-yellow-500 px-8 py-3 text-yellow-400 hover:bg-yellow-500 hover:text-white transition-colors duration-200"
+          className="flex flex-row items-center justify-center gap-x-2 rounded-lg border border-white px-8 py-3 text-white hover:bg-white hover:text-blue-600 transition-colors duration-200 font-medium"
         >
           Learn More →
         </a>
