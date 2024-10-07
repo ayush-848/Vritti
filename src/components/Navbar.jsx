@@ -32,6 +32,7 @@ const Navbar = () => {
             }`}
         >
             <div className="w-full flex justify-between items-center py-4 px-2 sm:px-4">
+                <a href="/">
                 <div className="flex items-center">
                     <img
                         src={Logo}
@@ -42,8 +43,9 @@ const Navbar = () => {
                         Vritti Academy
                     </h1>
                 </div>
+                </a>
                 <div className="flex space-x-4 sm:space-x-8">
-                    <Link href="#" className="text-white text-lg font-semibold font-montserrat hover:text-gray-300 transition duration-300">
+                    <Link href="/" className="text-white text-lg font-semibold font-montserrat hover:text-gray-300 transition duration-300">
                         Home
                     </Link>
                     <Link href="#about" className="text-gray-300 text-lg font-semibold font-montserrat hover:text-white transition duration-300">
@@ -52,8 +54,8 @@ const Navbar = () => {
                     <Link href="#contact" className="text-gray-300 text-lg font-semibold font-montserrat hover:text-white transition duration-300">
                         Enroll
                     </Link>
-                    <Link href="#testimonial" className="text-gray-300 text-lg font-semibold font-montserrat hover:text-white transition duration-300">
-                        Sign Up
+                    <Link href="/leaderboard" className="text-gray-300 text-lg font-semibold font-montserrat hover:text-white transition duration-300">
+                        Leaderboard
                     </Link>
                 </div>
             </div>
