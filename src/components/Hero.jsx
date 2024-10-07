@@ -31,15 +31,15 @@ const Hero = () => {
         <span className="my-4 block">
           <TypeAnimation
             sequence={[
-              'Vritti Academy', // Text to type
-              1000, // Time to wait before deleting (adjust this as per your preference)
-              '', // Empty string to delete the previous text
+              'Vritti Academy',
+              1000,
+              '',
             ]}
             wrapper="span"
             cursor={true}
-            repeat={Infinity} // Infinite loop
+            repeat={Infinity}
             style={{ color: 'white', fontSize: '4rem' }}
-            speed={250} // Typing speed (adjustable)
+            speed={250}
           />
         </span>
       </h1>
